@@ -152,3 +152,9 @@ variable "memcached_replicas" {
   description = "How many instances of memcached should be created"
   default     = 1
 }
+
+variable "kubeconfig" {
+  type        = string
+  description = "Path to kubeconfig file, used with kubectl calls"
+  default     = ""
+}
