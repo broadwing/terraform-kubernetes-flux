@@ -24,7 +24,7 @@ variable "git_path" {
 variable "flux_version" {
   type        = string
   description = "SemVer version of Flux"
-  default     = "1.20.0"
+  default     = "1.21.0"
 }
 
 variable "flux_arguments" {
@@ -98,7 +98,7 @@ variable "helm_operator_arguments" {
 variable "helm_operator_version" {
   type        = string
   description = "SemVer Version of the helm operator"
-  default     = "1.1.0"
+  default     = "1.2.0"
 }
 
 variable "helm_operator_resources" {
